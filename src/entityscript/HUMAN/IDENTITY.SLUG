@@ -1,0 +1,29 @@
+## IDENTITY.ENTITY - KEY:::VA001
+
+# Entity Snapshot
+datascript_id = ['VA001']
+title = ['IDENTITY']
+
+# Package Snapshot
+package_type = ['indexer']
+package_id = ['GUESTKEY000001']
+
+# Directory List-file
+DLIST = ["NONE"]
+
+# Identifier Overview
+identifier_type = [
+ ('IDENTIFIER', INT),
+ ('NAME', VARCHAR),
+]
+
+# Datascript Module Context
+datascript_module = [
+ ('C', 'CONTACT', "Is this person best described as a contact?"), # Known person
+ ('F', 'FICTITIOUS', "Is this a fictitious person?"), # Someone that does not exist
+ ('P', 'PERSON', "Is this a person you've met?"), # Known of, or is real
+]
+
+# INCLUDE - Additional modules that were included
+include_module = []
+
